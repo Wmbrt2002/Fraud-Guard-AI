@@ -1,0 +1,17 @@
+[theme]
+# الألوان الرئيسية للثيم الداكن الذي يعجبكِ
+primaryColor = "#FF4B4B"        # الأحمر التحذيري للعناصر الرئيسية (Alert Red)
+backgroundColor = "#0E1117"     # الخلفية الداكنة العميقة (Deep Dark Background)
+secondaryBackgroundColor = "#1a1a2e" # الخلفية الثانوية للبطاقات/الشريط الجانبي
+textColor = "#FFFFFF"           # لون النص الأبيض
+font = "sans serif"
+
+# إعدادات إضافية للعميل (Client Settings) لضمان التشغيل الحديث
+[client]
+# نستخدم هذا غالباً لتجاوز مشكلات التيمينغ في بعض المتصفحات
+showSidebarNavigation = false
+toolbarMode = "minimal"
+
+# إعدادات المتصفح (Browser Settings) لإيقاف جمع الإحصائيات (اختياري لكن مفضل)
+[browser]
+gatherUsageStats = false

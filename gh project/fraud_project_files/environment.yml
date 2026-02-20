@@ -1,0 +1,22 @@
+name: fraud_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - jupyterlab
+  - pip:
+    - xgboost
+    - imbalanced-learn
+    - fastapi
+    - uvicorn[standard]
+    - streamlit
+    - joblib
+    - kaggle
+    - shap
+    - lightgbm
+    - torch
